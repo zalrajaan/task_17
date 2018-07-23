@@ -8,6 +8,7 @@ class RestaurantListSerializer(serializers.ModelSerializer):
             'name',
             'opening_time',
             'closing_time',
+            'id',
             ]
 
 
